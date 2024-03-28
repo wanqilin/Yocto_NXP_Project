@@ -16,10 +16,12 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <remote name="boundary" fetch="https://github.com/boundarydevices"/>
+  <remote name="laird" fetch="https://github.com/LairdCP"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="a57506c46d92bf0767060102d2139be06d46f575" upstream="mickledore"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="922f41b39f364e5b6be596b4b51e0fb37ffe1971" upstream="mickledore" />
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="af4dcba009ba98250315520f3003fde4ee164cce" upstream="mickledore" />
+  <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="laird" revision="lrd-11.171.0.x"/>
   <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="mickledore">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>

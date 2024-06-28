@@ -22,7 +22,7 @@
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="922f41b39f364e5b6be596b4b51e0fb37ffe1971" upstream="mickledore" />
   <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="af4dcba009ba98250315520f3003fde4ee164cce" upstream="mickledore" />
   <project name="meta-summit-radio" path="sources/meta-summit-radio" remote="laird" revision="lrd-11.171.0.x"/>
-  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="mickledore">
+  <project name="meta-boundary" path="sources/meta-boundary" remote="boundary" revision="mickledore-ubuntu-desktop">
     <linkfile dest="imx-setup-release.sh" src="tools/imx-setup-release.sh"/>
   </project>
 
@@ -44,5 +44,10 @@
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="mickledore-6.1.55-2.2.0" />
+
+  <project name="meta-nxp-desktop" remote="nxp-imx" path="sources/meta-nxp-desktop" revision="refs/tags/rel_lf_6.1.55_2.2.0_ldp" upstream="lf-6.1.55-2.2.0-mickledore" >
+    <linkfile src="tools/imx-setup-desktop.sh" dest="imx-setup-desktop.sh"/>
+    <linkfile src="README.md" dest="README-DESKTOP"/>
+  </project>
 
 </manifest>

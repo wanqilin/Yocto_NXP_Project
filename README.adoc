@@ -1,4 +1,4 @@
-= Boundary Devices BSP
+= Boundary Devices Ex BSP
 
 To build the BSP, we recommend using a Docker Container so that you can build with
 a reproducible and stable build environment. A template dockerfile can be found here:
@@ -19,7 +19,7 @@ Download the BSP source:
 [source,console]
 $: mkdir boundary-bsp
 $: cd boundary-bsp
-$: repo init -u https://github.com/boundarydevices/boundary-bsp-platform
+$: repo init -u https://github.com/wanqilin/Yocto_NXP_Project -b kylin
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.

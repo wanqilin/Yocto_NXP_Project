@@ -31,6 +31,6 @@
   <project remote="clang"  revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" name="meta-clang" path="sources/meta-clang"/>
   <project remote="wanqilin" name="meta-boundaryEx" path="sources/meta-boundary"/>
   <project remote="meta-qt5" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="wanqilin" name="mate_testapp" path="sources/mete_testapp"/>
+  <project remote="wanqilin" name="mate_testapp" path="sources/meta-testapp"/>
   
 </manifest>

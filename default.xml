@@ -11,7 +11,6 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
-  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
   <remote fetch="https://github.com/wanqilin" name="wanqilin"/>
   
 
@@ -30,7 +29,6 @@
   <project remote="oss" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" name="meta-browser" path="sources/meta-browser"/>
   <project remote="clang"  revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" name="meta-clang" path="sources/meta-clang"/>
   <project remote="wanqilin" name="meta-boundaryEx" path="sources/meta-boundary"/>
-  <project remote="meta-qt5" name="meta-qt5" path="sources/meta-qt5"/>
-  <project remote="wanqilin" name="mate_testapp" path="sources/meta-testapp"/>
-  
+  <project remote="wanqilin" kirkstone="main" name="meta-Blockly_C" path="sources/meta-Blockly_C"/>
+
 </manifest>
